@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <!-- jquery cdn -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/b30b29db07.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <div id="logoNavbar">
+        <a href="index.html">
+          <img
+            src="img/logo-Tournesol.png "
+            alt="logo
+                mr.Tournesol"
+            class="logo"
+          />
+        </a>
+        <nav>
+          <ul class="menu">
+            <div class="close-btn"></div>
+            <li class="menu-item">
+              <a href="index.html">ACCUEIL</a>
+            </li>
+            <li class="menu-item">
+              <a href="qsn.html">QUI SOMMES-NOUS</a>
+            </li>
+            <li class="menu-item">
+              <a href="nosRealisations.html">NOS RÉALISATIONS</a>
+            </li>
+            <li class="menu-item">
+              <a href="Contact.html">CONTACT</a>
+            </li>
+          </ul>
+          <div class="menu-btn"><i class="fas fa-bars"></i></div>
+        </nav>
+      </div>
+      <h3>Contactez-nous</h3>
+      <div class="bloc-banniere">
+        <img src="img/banniereContact.jpg" alt="" />
+      </div>
+    </header>
+
+    <!-- --------------------------------------- Contenu --------------------------------------- -->
+    <main>
+      <section class="section-one-ct">
+        <div class="texte-contact">
+          <h4>Contact</h4>
+          <p>
+            Vous souhaitez vous informez sur nos créations ou nous faire
+            partager vos
+          </p>
+          <p>suggestions? Contactez-nous!</p>
+        </div>
+      </section>
+      <!-- ----------------------------------------- formulaire de contact -------------------------------- -->
+      <section class="section-two-ct">
+        <div class="section-contact">
+          <form class="formulaire-contact">
+            <label for="nom">Nom*</label>
+            <input
+              type="text"
+              name="nom"
+              id="nom"
+              placeholder="Votre nom"
+              required
+            />
+
+            <label for="prenom">Prénom*</label>
+            <input
+              type="text"
+              name="prenom"
+              id="prenom"
+              placeholder="Votre prénom"
+              required
+            />
+
+            <label for="email">E-mail*</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Votre e-mail"
+              required
+            />
+
+            <label for="telephone">Numéro de téléphone</label>
+            <input
+              type="number"
+              name="telephone"
+              id="telephone"
+              placeholder="Votre téléphone"
+            />
+
+            <label for="sujet">Sujet*</label>
+            <input
+              type="text"
+              name="sujet"
+              id="sujet"
+              placeholder="Vos questions"
+              required
+            />
+
+            <label for="message">Votre message</label>
+            <textarea id="message"></textarea>
+
+            <button class="form-btn" type="submit">ENVOYER</button>
+          </form>
+        </div>
+
+        <!-- ----------------------------------------- Carte google maps ----------------------------------------- -->
+
+        <div class="container-maps">
+          <iframe
+            class="googlemap"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2639.4946973213705!2d7.748237451563056!3d48.581226079159514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c85306d84dc1%3A0x2aaa118cab388e06!2s1%20Pl.%20de%20la%20Cath%C3%A9drale%2C%2067000%20Strasbourg!5e0!3m2!1sfr!2sfr!4v1636365894498!5m2!1sfr!2sfr"
+            width="600"
+            height="600"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <!-- ------------------------------  Footer ------------------------------ -->
+    <footer>
+      <div class="contenu-footer">
+        <div class="bloc footer-contact">
+          <h3>Contact</h3>
+          <p>
+            <!-- <img src="icones/home-solid.svg" alt="icones de maison" class="img-icones">  -->
+            1 place de la cathédrale
+          </p>
+          <p>67000 STRASBOURG</p>
+          <p>
+            <!-- <img src="icones/phone-solid.svg" alt="icones de téléphone" class="img-icones"> -->
+            Tél : 03.88.23.24.25
+          </p>
+        </div>
+        <div class="bloc footer-navigation">
+          <h3>NAVIGATION</h3>
+          <ul class="liste-navigation">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="qsn.html">Qui sommes-nous</a></li>
+            <li>
+              <a href="nosRealisations.html">Nos réalisations</a>
+            </li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="bloc footer-reseaux">
+          <h3>Nos réseaux sociaux</h3>
+          <ul class="liste-reseaux">
+            <li>
+              <a href="https://www.facebook.com/" target="_blank">
+                <!-- <img
+                  src="/icones/facebook-square-brands-white.svg"
+                  alt="icones réseaux sociaux"
+                  class="img-icones"
+                /> -->
+                <i class="fab fa-facebook-square"></i>
+                Facebook</a
+              >
+            </li>
+            <li>
+              <a href="https://www.Twitter.com/" target="_blank">
+                <!-- <img
+                  src="/icones/twitter-square-brands-white.svg"
+                  alt="icones réseaux sociaux"
+                  class="img-icones"
+                /> -->
+                <i class="fab fa-twitter-square"></i>
+                Twitter</a
+              >
+            </li>
+            <li>
+              <a href="https://www.Instagram.com/" target="_blank">
+                <!-- <img
+                  src="/icones/instagram-square-brands-white.svg"
+                  alt="icones réseaux sociaux"
+                  class="img-icones"
+                /> -->
+                <i class="fab fa-instagram-square"></i>
+                Instagram</a
+              >
+            </li>
+            <li>
+              <a href="https://www.Snapchat.com/" target="_blank">
+                <!-- <img
+                  src="/icones/snapchat-square-brands-white.svg"
+                  alt="icones réseaux sociaux"
+                  class="img-icones"
+                /> -->
+                <i class="fab fa-snapchat-square"></i>
+                Snapchat</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
